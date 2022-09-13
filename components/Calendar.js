@@ -92,11 +92,12 @@ const Calendar = ({ dates, month, year }) => {
         </Text>
       </View>
       <View style={styles.headerRow}>
-        {weekdays.map((day) => <Text style={styles.header}>{day}</Text>)}
+        {weekdays.map((day) => <Text key={day} style={styles.header}>{day}</Text>)}
       </View>
       <View style={styles.datesPanel}>
-        {getMonthDates(monthIndex, year).map((d) => (
+        {getMonthDates(monthIndex, year).map((d, i) => (
           <Cell
+            key={i}
             date={d}
             mood={moods[d]}
             isToday={isSameMonth && (d === date)}
