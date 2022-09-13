@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { emojis, getMonthDates, months, weekdays } from '../utilities';
 
 const COLOR = '#666';
 
@@ -50,51 +51,6 @@ const styles = StyleSheet.create({
     fontSize: 20,
   }
 });
-
-const weekdays = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
-
-const months = [
-  'January', 'February', 'March', 'April',
-  'May', 'June', 'July', 'August',
-  'September', 'October', 'November', 'December',
-];
-
-const emojis = {
-  happy: '🙂',
-  fair: '😐',
-  sad: '😡',
-};
-
-const getMonthDates = (month, year) => {
-  const firstDayWeekDay = new Date(year, month, 1).getDay();
-  // 0th day of next month is last day of this month.
-  const lastDayOfMonth = new Date(year, month + 1, 0);
-  const daysInMonth = lastDayOfMonth.getDate();
-
-  const dates = [];
-
-  let startDate = 1;
-  let emptyCellsAtStart = 0;
-
-  if (firstDayWeekDay === 0) {
-    emptyCellsAtStart = 6;
-    startDate = 2;
-  } else if (firstDayWeekDay > 1) {
-    emptyCellsAtStart = firstDayWeekDay - 1;
-  }
-
-  if (emptyCellsAtStart > 0) {
-    for (let i = 0; i < emptyCellsAtStart; i += 1) {
-      dates.push(0);
-    }
-  }
-
-  for (let i = startDate; i <= daysInMonth; i += 1) {
-    dates.push(i);
-  }
-
-  return dates;
-};
 
 const Cell = ({ date, mood, isToday }) => {
   if (date === 0) {
