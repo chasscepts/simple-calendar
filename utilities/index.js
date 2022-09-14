@@ -32,7 +32,6 @@ export const getMonthDates = (month, year) => {
 
   if (firstDayWeekDay === 0) {
     emptyCellsAtStart = 6;
-    startDate = 2;
   } else if (firstDayWeekDay > 1) {
     emptyCellsAtStart = firstDayWeekDay - 1;
   }
@@ -43,7 +42,7 @@ export const getMonthDates = (month, year) => {
     }
   }
 
-  for (let i = startDate; i <= daysInMonth; i += 1) {
+  for (let i = 1; i <= daysInMonth; i += 1) {
     dates.push(i);
   }
 
