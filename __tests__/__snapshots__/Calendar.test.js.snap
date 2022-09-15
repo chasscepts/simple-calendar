@@ -1,0 +1,998 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calendar snapshot renders correctly 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "bottom",
+      "left",
+      "right",
+      "top",
+    ]
+  }
+>
+  <View>
+    <Text
+      style={
+        Object {
+          "color": "#666",
+          "fontSize": 28,
+          "fontWeight": "bold",
+          "paddingStart": 10,
+          "paddingTop": 5,
+        }
+      }
+    >
+      September, 2022
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "overFlowX": "hidden",
+        "paddingBottom": 5,
+        "paddingTop": 10,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#666",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      Mon
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#666",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      Tue
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#666",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      Wed
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#666",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      Thu
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#666",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      Fri
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#666",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      Sat
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#666",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      Sun
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        accessibilityLabel="sad"
+        accessibilityRole="image"
+        style={
+          Object {
+            "fontSize": 32,
+          }
+        }
+      >
+        😡
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        1
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        2
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        3
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        accessibilityLabel="happy"
+        accessibilityRole="image"
+        style={
+          Object {
+            "fontSize": 32,
+          }
+        }
+      >
+        🙂
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        4
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        5
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        accessibilityLabel="fair"
+        accessibilityRole="image"
+        style={
+          Object {
+            "fontSize": 32,
+          }
+        }
+      >
+        😐
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        6
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        7
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        8
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        9
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        10
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        11
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        12
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        13
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        14
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        15
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        16
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        17
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        18
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        19
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        20
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        21
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        22
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        23
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        24
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        25
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        26
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        accessibilityLabel="sad"
+        accessibilityRole="image"
+        style={
+          Object {
+            "fontSize": 32,
+          }
+        }
+      >
+        😡
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        27
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        28
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        29
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 75,
+          "justifyContent": "flex-end",
+          "width": "14.285714285714286%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+              "fontSize": 20,
+            },
+            Object {
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        30
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaView>
+`;
